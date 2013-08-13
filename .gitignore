@@ -218,8 +218,3 @@ pip-log.txt
 ## Netbeans
 #################
 nbproject/
-
-#Using php files for devving/debugging
-*.php
-/jquery-1.10.2.js
-/ajax-loader.gif
