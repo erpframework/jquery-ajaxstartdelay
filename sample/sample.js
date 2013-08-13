@@ -15,8 +15,8 @@ $(document).ready(function(){
     $(document).ajaxStartDelay(delay, showNotification);
     
     /* 
-     * Uncomment the following codeline and comment out the previous one to see 
-     * the difference between jQuery's ajaxStart and the version of this plugin 
+     * Uncomment the following line of code and comment out the previous one to see 
+     * the difference between jQuery's ajaxStart and the version this plugin 
      * provides. You'll see the notification bar showing up for a split second if 
      * you click the fast response button. That's bad user experience since 
      * there's no reason to notify the user yet if the request-reponse cycle 
