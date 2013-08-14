@@ -1,0 +1,21 @@
+{
+    "name": "ajaxstartdelay",
+    "title": "jQuery ajaxStartDelay",
+    "description": "jQuery plugin providing a delay to be set before the handler is called in jQuery's .ajaxStart()",
+    "author": {
+        "name": "Loran Kloeze | Invetek",
+        "email": "loran@invetek.nl",
+        "url": "http://www.invetek.nl/"
+        },
+    "version": "0.1.0",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.0"
+    }        
+    
+}

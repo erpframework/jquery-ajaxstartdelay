@@ -33,7 +33,7 @@ From http://api.jquery.com/ajaxStart/
 
 The difference between the above and this plugin is the delay before the handler is called. Keep in mind that the event _ajaxStart_ is immediately triggered. Only the call to the handler is delayed.
 
-Just like jQuery's .ajaxStart the .ajaxStartDelay should only be attached to the _document_ object. Check the documentation at http://api.jquery.com/ajaxStart/.
+Just like jQuery's .ajaxStart as of jQuery 1.8 the .ajaxStartDelay should only be attached to the _document_ object. Check the documentation at http://api.jquery.com/ajaxStart/.
 
 ##Example
 
