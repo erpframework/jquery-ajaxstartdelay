@@ -19,7 +19,7 @@ Grab jquery.ajaxstartdelay.js from the repository and insert the following line 
 
 That's all.
 
-##Use
+##Usage
 
 ```javascript
 $(document).ajaxStartDelay([delay], handler)
