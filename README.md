@@ -54,7 +54,7 @@ Make sure the jQuery and plugin scripts are loaded.
   })
   
   // Attach the handler for undisplaying the ajax-statuspanel when all request-response cycles
-  // is finished. Just use jQuery's .ajaxStop event handler
+  // are finished. Just use jQuery's .ajaxStop event handler
   $(document).ajaxStop(function(){
     $("#ajax-statuspanel").fadeOut();
   })
