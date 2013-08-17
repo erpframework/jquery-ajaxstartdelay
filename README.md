@@ -6,7 +6,7 @@ A small jQuery plugin providing a delay to be set before the handler is called i
 
 ##Why this plugin?
 
-The [.ajaxStart](http://api.jquery.com/ajaxStart/) event handler in jQuery calls the handler immediately when the ajaxStart event is triggered. In other words: when the AJAX request is made the handler is called. Most of the time the handler is used to show the user some kind of notice like 'please wait a minute' while the AJAX request-response cycle is on it's way. It's annoying to see this notice everytime an AJAX request is made. It's nicer when this notice only shows up when the request-response cycle takes longer then a few seconds. This plugin provides the functionality to delay the call to the handler. 
+The [.ajaxStart](http://api.jquery.com/ajaxStart/) event handler in jQuery calls the handler immediately when the ajaxStart event is triggered. In other words: when the AJAX request is made the handler is called. Most of the time the handler is used to show the user some kind of notice like 'please wait a minute' while the AJAX request-response cycle is on its way. It's annoying to see this notice everytime an AJAX request is made. It's nicer when this notice only shows up when the request-response cycle takes longer than a few seconds. This plugin provides the functionality to delay the call to the handler. 
 
 The plugin is simply a wrapper around the .ajaxStart event handler.
 
@@ -48,7 +48,7 @@ Make sure the jQuery and plugin scripts are loaded.
 <script>
 
   // Attach the handler for displaying #ajax-statuspanel when the request-response cycle
-  // takes more then 2000 ms. 
+  // takes more than 2000 ms. 
   $(document).ajaxStartDelay(2000, function(){
     $("#ajax-statuspanel").fadeIn();
   })
