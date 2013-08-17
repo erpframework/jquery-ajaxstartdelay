@@ -2,6 +2,9 @@
     "name": "ajaxstartdelay",
     "title": "jQuery ajaxStartDelay",
     "description": "jQuery plugin providing a delay to be set before the handler is called in jQuery's .ajaxStart()",
+    "homepage": "http://www.invetek.nl/?p=19",
+    "demo": "http://www.invetek.nl/samples/ajaxstartdelay", 
+    "keywords": ["ajax", "delay", "ajaxstart", "events"],
     "author": {
         "name": "Loran Kloeze | Invetek",
         "email": "loran@invetek.nl",
