@@ -62,6 +62,6 @@ Make sure the jQuery and plugin scripts are loaded.
 </script>
 ```
 
-Check out the [sample](sample) in the repository for a full example. 
+Check out this [live](http://www.invetek.nl/samples/ajaxstartdelay) sample (and its [source](sample)).
 
 
