@@ -6,6 +6,10 @@
  * Released under the MIT license
  */
 
+test("is available as method", function(){
+            ok(typeof $.fn.ajaxStartDelay === 'function', 'Plugin is not available');
+        });
+        
 test("is chainable", function(){
     expect(1);
     var $document = $(document); //We can't use a fixture
