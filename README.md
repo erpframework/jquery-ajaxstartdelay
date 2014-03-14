@@ -29,7 +29,7 @@ $(document).ajaxStartDelay([delay], handler)
 
 From http://api.jquery.com/ajaxStart/
 
->Whenever an Ajax request is about to be sent, jQuery checks whether there are any other outstanding Ajax requests. If >none are in progress, jQuery triggers the ajaxStart event. Any and all handlers that have been registered with the >.ajaxStart() method are executed at this time.
+>Whenever an Ajax request is about to be sent, jQuery checks whether there are any other outstanding Ajax requests. If >none are in progress, jQuery triggers the ajaxStart event. Any handlers that have been registered with the >.ajaxStart() method are executed at this time.
 
 The difference between the above and this plugin is the delay before the handler is called. Keep in mind that the event _ajaxStart_ is immediately triggered. Only the call to the handler is delayed.
 
